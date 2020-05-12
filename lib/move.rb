@@ -22,5 +22,6 @@ end
 
 
 def move(board, position, choice= "X")
+  position = board[0]
 
 end
