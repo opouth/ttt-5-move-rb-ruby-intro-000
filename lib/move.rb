@@ -19,7 +19,6 @@ token = "X"
 board[position.to_i - 1] = token
 display_board(board)
 
-
 def input_to_index
 
 end
