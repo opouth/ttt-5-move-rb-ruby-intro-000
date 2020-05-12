@@ -22,6 +22,7 @@ end
 
 
 def move(board, position, char="X")
+  board[0] = "X"
   #token = "X"
   #board[0] = char
   #new_index = token
