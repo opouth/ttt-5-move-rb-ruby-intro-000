@@ -17,6 +17,7 @@ puts "Where would you like to go? Choose a position between 1 and 9 please!"
 position = gets.strip
 token = "X"
 board[position.to_i - 1] = token
+end
 display_board(board)
 end
 input_to_index
