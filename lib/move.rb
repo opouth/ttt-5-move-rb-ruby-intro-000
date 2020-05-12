@@ -18,7 +18,6 @@ position = gets.strip
 token = "X"
 board[position.to_i - 1] = token
 end
-input_to_index
 display_board(board)
 
 
