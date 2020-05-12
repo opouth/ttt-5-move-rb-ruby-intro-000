@@ -13,7 +13,7 @@ display_board(board)
 #puts "Welcome to Tic Tac Toe!"
 #puts "Where would you like to go? Choose a position between 1 and 9 please!"
 def input_to_index(user_input)
-  user_input.to_i
+  new_index = user_input.to_i - 1
 
 end
 #input_to_index
