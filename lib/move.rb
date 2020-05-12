@@ -22,6 +22,9 @@ end
 
 
 def move(board, position, choice= "X")
+  token = "X"
+  new_index = board[position - 1]
+  new_index = token
   position = board[0]
 
 end
