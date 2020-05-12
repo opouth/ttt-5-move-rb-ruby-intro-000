@@ -16,7 +16,7 @@ puts "Where would you like to go?"
 position = gets.strip
 token = "X"
 
-if position.to_i > 9 || position.to_i <= 0 
+if position.to_i > 9 || position.to_i <= 0
   puts "Choose a position between 1 and 9 please!"
 else
 board[position.to_i - 1] = token
