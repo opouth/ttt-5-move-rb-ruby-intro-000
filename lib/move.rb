@@ -22,7 +22,7 @@ end
 
 
 def move(board, position, char="X")
-  board[0] = "X"
+  board[position] = "X"
   #board[4] = "O"
   #token = "X"
   #board[0] = char
