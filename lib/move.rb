@@ -16,13 +16,12 @@ puts "Where would you like to go?"
 position = gets.strip
 token = "X"
 
-while position.to_i > 9 || position.to_i <= 0 do
+if position.to_i > 9 || position.to_i <= 0 
   puts "Choose a position between 1 and 9 please!"
-end
-
+else
 board[position.to_i - 1] = token
-
 display_board(board)
+end
 
 def input_to_index
 
