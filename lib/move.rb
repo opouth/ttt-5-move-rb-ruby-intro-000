@@ -21,9 +21,9 @@ end
 #display_board(board)
 
 
-def move(board, position, choice= "X")
+def move(board, position, char= "X")
   #token = "X"
-  board[0] = "X"
+  board[0] = char
   new_index = token
   position = board[0]
 
