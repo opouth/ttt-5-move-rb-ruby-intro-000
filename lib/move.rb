@@ -23,8 +23,8 @@ end
 
 def move(board, position, char="X")
   #token = "X"
-  board[0] = char
-  new_index = token
-  position = board[0]
+  #board[0] = char
+  #new_index = token
+  #position = board[0]
 
 end
