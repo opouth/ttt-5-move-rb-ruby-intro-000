@@ -21,6 +21,6 @@ end
 #display_board(board)
 
 
-def move(board, position, choice)
+def move(board, position, choice= "1")
 
 end
